@@ -5,6 +5,8 @@
 git clone https://github.com/lerdem/chart.git
 cd chart
 pip install -r requirements.txt
+# optional (Thar will generate random data for chart)
+./src/manage.py gen_data
 ./src/manage.py runsrver
 ```
 After that visit the [127.0.0.1:8000](http://127.0.0.1:8000)
