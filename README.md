@@ -5,7 +5,7 @@
 git clone https://github.com/lerdem/chart.git
 cd chart
 pip install -r requirements.txt
-# optional (Thar will generate random data for chart)
+# optional (That command will generate random data for chart)
 ./src/manage.py gen_data
 ./src/manage.py runsrver
 ```
