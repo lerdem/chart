@@ -64,7 +64,7 @@ class GetDataListTest(unittest.TestCase):
         self.assertEqual(len(data['value2']), 6)
         self.assertEqual(len(data['value1']), 6)
         self.assertEqual(len(data['date']), 6)
-        self.assertEqual(data['date_range'], [*params.values()])
+        self.assertIn('date_range', data.keys())
 
     def test_invalid_param_values(self):
         params = {
